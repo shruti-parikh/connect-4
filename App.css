@@ -1,0 +1,151 @@
+
+body {
+  background-color: #022140;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+}
+
+
+.one{
+  animation: glitch 2s linear infinite;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background: black;
+  color: #fff;
+  border-radius: 50%;
+  border-bottom: 2px inset white;
+  
+ 
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+.two {
+  margin-top: 5%;
+  /* background:rgba(0, 0, 0, 0.2); */
+  /* box-sizing: border-box; */
+  background: black;
+  color: #fff;
+  border-bottom: 10px solid #FFA000;
+  border-radius: 60%;
+  
+}
+
+.three {
+  
+  display: inline-block;
+}
+
+h1, h2 ,p{
+  text-align: center;
+  
+}
+
+p{
+  font-size: larger;
+  list-style-type:lower-greek;
+}
+
+
+.name{
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 3%;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #fff;
+  background-color: black;
+  font-size: 20px;
+  border-bottom: 10px solid #FFA000;
+  font-style: normal;
+  
+}
+
+.b1 {
+  /* position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 8px 10px 5px 10px;
+    text-decoration: none;
+    color: #FFA000;
+    background: #fff1da;
+    border-bottom: solid 4px #FFA000;
+    border-radius: 15px 15px 0 0; */
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #f7f7f7;
+    border-left: solid 6px #FFA000;
+    color: #FFA000;
+    font-weight: bold;
+    
+    
+}
+
+.b1:hover {
+  background: #FFA000;
+  color: #FFF;
+  border-left: solid 6px white;
+}
+
+.b2{
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: rgb(14, 13, 13);
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  font-weight: bold;
+  
+
+
+}
+.cell {
+  height: 50px;
+  width: 50px;
+  /* background-color: #f5be18; */
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 250%;
+  
+}
+
+.white {
+  height: 40px;
+  width: 40px;
+  background-color: #FFF;
+  border-radius: 100px;
+}
+
+.red {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  border-radius: 100px;
+}
+
+.black {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 100px;
+}
+
+
+
